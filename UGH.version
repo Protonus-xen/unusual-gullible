@@ -1,11 +1,11 @@
 {
-    "masterVersionFile":"",
+    "masterVersionFile":"https://raw.githubusercontent.com/Protonus-xen/unusual-gullible/blob/main/UGH.version",
     "modName":"Unusually Gullible Hullmods",
     "modThreadId":1,
     "modVersion":
     {
         "major":0,
         "minor":2,
-        "patch":0
+        "patch":0a
     },
 }

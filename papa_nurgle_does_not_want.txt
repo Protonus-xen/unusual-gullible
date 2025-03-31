@@ -1,0 +1,315 @@
+**** Version 0.5.1 ****
+	Updated to version 0.98a-RC5.
+	Hullmods:
+		Changed the string format under the hood for easier categorizing.
+	Anti-Terminal Breakers:
+		Redid hullmod requisite so that it exclusively needs only the Shield. (Safety Overrides is obviously still forbidden.)
+		Overhauled the Breaker logic timer so that the passive effect continues and countdown its duration until it passes out.
+	Collapser Shield:
+		Maximum Fragmentation resistance increased from 33% to 50%.
+	Sustaining Motivator:
+		Added Smod bonus that increases Peak Readiness time by 15%.
+	Thursh Warheads:
+		Bonus Range reduced from 33% to 20%.
+		Bonus Speed reduced from 1.5x to 1.3x.
+
+**** Version 0.5.0-RC4 ****
+	Maximal Shields:
+		Fixed Shield damage reduction description. Again.
+
+**** Version 0.5.0-RC3 ****
+	Arsenal Clock:
+		Throwaway fix, should the current Peak Performance timer be higher than its natural maximum, the bonus (that becomes a penalty) will be removed.
+	Maximal Shields:
+		Fixed Shield damage reduction description.
+		Shield Movement speed penalty reduced from 0.33x to 0.5x.
+		Shield damage reduction:
+			Effect reduced from 0.33x (3x) to 0.42x (2.38x).
+			(S-mod) Effect reduced from 0.25x (4x) to 0.33x (3x).
+	
+**** Version 0.5.0-RC2 ****
+	Updated to version 0.97a-RC7.
+
+**** Version 0.5.0-RC1 ****
+	Strikecraft Specialization:
+		Fixed value grouping for the Smodded variant that results absurd scaling.
+
+**** Version 0.5.0 ****
+	Updated to version 0.96a-RC10.
+	Most of the hullmods have received an S-mod bonus.
+	Anti-Terminal Breakers:
+		Weapon/Engine repair bonus reduced from 67% (triple) to 50% (double):
+			Description reiterated to reflect the reduction.
+			Original effect is given to Smodded version.
+		When S-modded, removes shield damage efficiency reduction, reduces Overload time, increases Weapon/Engine repair speed and extends Anti-Terminal duration.
+		Bug note: Antiterminal cannot reset its timer while the effect is active.
+	Autostruct Manufactory:
+		Hull Regeneration reduced from 0.8% (4%) to 0.6% (3.0%).
+	Hardload Discharge:
+		(Still Experimental)
+		Time mechanic added that gives a short duration of the bonus instead of being directly dependent on the flux tracker.
+		Strength of the buff will now only be locked when the shield was recently dropped.
+		Peak non-missile damage bonus increased from 25% to 33%.
+		Peak Armor damage resistance increased from 25% to 50%.
+	Jandor Time Reactor:
+		When S-modded, makes you go even faster but makes everything else even worse.
+	Arsenal Clock:
+		When S-modded, flux dissipation penalty removed, required peak readiness time for maximum effect is reduced and damage bonus provided is increased.
+	Auxiliary Ordinance Forge:
+		When S-modded, weapon turn rate penalty removed, existing non-missile ammo regeneration is increased and lower limit of ammo capacity for forge to take effect is reduced.
+	Thrush Warheads:
+		Missile range increased reduced from 2x to 33%. (tell no one of this)
+		Missile speed increased from 1.25x to 1.33x.
+		When S-modded, missile durability is flipped to increase and additional ammo is added.
+	Weighted Rounds:
+		When S-modded, ballistic range penalty is removed and weapon projectile speed penalty is reduced.
+	Extended Phase Capacitors:
+		When S-modded, flux upkeep reduction increased further and phase cooldown reduced.
+	Collapser Shields:
+		Damage reduction calculation changed to receive the full effect than a flat value.
+		Shield Efficiency reduction from 67% to 50%.
+		When S-modded, reduces shield efficiency reduction.
+	Maximal Shields:
+		Shield flux generation per second multiplier reduced from 4x to 3.5x.
+		Shield movement speed penalty increased from 50% to 67%.
+		When S-modded, further increases shield damage resistance while reducing flux upkeep cost.
+	Shunt Diverted Thrusters:
+		Engine hullmod tag added.
+		As Makeshift Shift Shield Shunt is no longer possible, scripts associated with it are removed.
+		When S-modded, maneuverability bonus is doubled, zero-flux penalty is halved and engines take less damage.
+	Shunt Distributor:
+		Flux Dissipation percentage bonus reduced from 20% to 10%. Additional 10% is given to S-mod instead.
+		Added Flux Capacity bonus by 10%.
+		When S-modded, Ballistic/Energy weapons have increased flux efficiency and slight increase further in rate of fire.
+	Bulked Fighter Armor:
+		Refit penalty changed from a flat 20% to 5% per deck.
+	Tachyon Broadcast Comms:
+		Engagement range buff reduced from 20x to 10x. Farewell catapult memes (except no)
+		Original Engagement range buff is given to S-mod instead.
+		When also S-modded, removes Flux Dissipation penalty.
+	Strikecraft Specialization:
+		When S-modded, all existing buffs are stronger, removes penalties and reduces crew loss from fighter losses.
+	Reliant Utility Drives:
+		When S-modded, Zero-Flux speed is a solid flat increase, maneuverability and engine health are increased and adds an additional burn level.
+	Sustaining Motivator:
+		When S-modded, Maximum Combat Readiness is removed but now imitates the bonus while CR loss penalty is removed.
+	Extended Utility Engineering:
+		System Charge increase is moved as an S-mod bonus.
+		When S-modded, system cooldown is reduced further and range is also increased.
+
+**** Version 0.4.2b ****
+	Shunt Thursters:
+		Changed how the base shield value is considered for each stack, 
+		bonus will increase immediately upon reaching a 0.2 threshold instead of passed it.
+
+**** Version 0.4.2aaa ****
+	Anti Terminal Breakers:
+		Tooltip fix.
+	Expanded Phase Capacitors:
+		Tooltip fix.
+
+**** Version 0.4.2aa ****
+	Faultline Shield:
+		Replaced the "a certain skill" with Rugged Construction, as no skill has ever affected the hullmod since the Skill revamp.
+
+**** Version 0.4.2a ****
+	Faultline Shield:
+		Added a missing script that removes the effects when unshielded.
+		
+**** Version 0.4.2 ****
+	Restructured tooltips for all hullmods that use tooltips for translation compatibility.
+	Stored text for hullmods are in "strings/strings.json".
+	Shunt Thursters:
+		Added fourth bonus stack for really impossible 0.4 or lower Shield Efficiency.
+		Simplified description for multiple base Shield efficiency values.
+			
+**** Version 0.4.1b ****
+	Faultline Shield:
+		Arranged some type in the description.
+	Bobulated Heral Armor:
+		Added forgotten Null and Shield check logic.
+		
+**** Version 0.4.1a ****
+	Hardload Discharge:
+		Added forgotten Null and Shield check logic.
+	Collapser Shield:
+		Added forgotten Null and Shield check logic.
+
+**** Version 0.4.1 ****
+	Up ticked to 0.95.1a.
+	Added Jandor Time Reactor, directly increases time flow but increases damage taken from all sources.
+	Anti-Terminal Reactive Breakers:
+		Ordinance point cost reduced from 4/8/14/25 to 2/4/6/10.
+		Shield Efficiency penalty reduced from 20% to 10%.
+		Break Time increased from 2/3/4/5 (3) to 5/6/7/9 (7).
+		Weapon/Engine repair bonus during break increased from 25% to 67%.
+		Now doubles Minimum Armor during the break.
+		Fixed Repair bonus still being in effect after break.
+	Autostruct Manufactory:
+		Has a streamlined description section.
+	Bobulated Heral Armor:
+		Has a streamlined description section.
+	Bulked Fighter Armor:
+		Provides 10% additive Hull and Armor.
+		Maneuverability penalty increased from 15% to 20%.
+		Has a streamlined description section.
+	Strikecraft Specialization:
+		Now reduces Replacement recovery rate instead of increasing it.
+		Interceptor bonus increased from 20% to 25%.
+	Auxiliary Ordinance Forge:
+		Fix ammo regeneration to limit at its maximum capacity.
+	Shunt Distributor:
+		Flux Dissipation percentage bonus increased from 15% to 20%.
+		Non-Missile Firing Speed bonus reduced from 15% to 10%.
+		Ordinance point cost reduced from 3/6/10/18 to 3/6/10/15.
+		Will actively remove itself now if Shield Shunt is no longer present, even as an S-mod.
+	Shunt Diverted Thrusters:
+		Now increases Manueverability depending on Shield efficiency.
+		Now reduces Zero-Flux speed bonus depending on Shield efficiency.
+		Extends to a near impossible base value of 0.5 to squeeze that extra power for very specific ships.
+		Ordinance point cost reduced from 5/10/15/20 to 3/6/10/15.
+		Will actively remove itself now if Shield Shunt is no longer present, even as an S-mod.
+		Added a very specific condition where if Makeshift Shield Generator is installed just to use Shield Shunt, the doubled effect is applied.
+	Expanded Phase Capacitors:
+		Moved from Special to Phase category.
+		Has a streamlined description section.
+		Phase Activation flux generation bonus reduced from 25% to 15%.
+		Phase Upkeep generation bonus increased from 20% to 25%.
+	Phasic Armor Frame:
+		Moved from Special to Phase category.
+		Has a streamlined description section.
+	Inverted Phase Dilator:
+		Moved from Special to Phase category.
+		Has a streamlined description section.
+
+**** Version 0.4.0b ****
+	Thrush Warheads:
+		Missile Manueverability reduced further from 67% to 80%.
+		Missile Health now reduced by 20%.
+
+**** Version 0.4.0a ****
+	Auxiliary Superbank Dissipator:
+		Flux Dissipation factor reduced from 1.5 to 1.25. Too much. AAAAAAAAAAAAAA
+	Expanded Phase Capacitors:
+		No longer increases cooldown that benefits both Phasic Armor Frame and Inverted Phase Dilator.
+	Bobulated Heral Armor:
+		Static 20% Armor bonus changed from Multiplier to Percentage. Yeah, that might be a little too much.
+	Maximal Shield:
+		Script Upkeep multiplier tied to innate variable of 4 instead of 5.
+		
+**** Version 0.4.0 ****
+	Added Anti-Terminal Reactive Breakers, a fool-resistant feature lost in time that increases armor damage resistance and weapon/engine repair speed temporarily should the ship overload.
+	Added Shunt Diverted Thrusters, another fooken Shield Shunt hullmod that increases speed. That is all.
+	Added Auxiliary Superbank Dissipator, Titanic Superconductors but for Dissipation. Requires a Logistic slot, more overload/vent time and some hull. And of course more supplies.
+	Shunt Distributor:
+		Linked variable tied to percentage Flux Dissipation bonus for the exact value of 15%.
+	Extended Utility Engineering:
+		Use Regeneration and Cooldown nerfed from 15% to 10%. They're effectively too much when they're together, like really too much.
+
+**** Version 0.3.0g ****
+	Faultline Shield:
+		Removes effects while venting. Meant to remove endless loop venting on certain ships.
+
+**** Version 0.3.0f ****
+	Tachyon Broadcast Comms:
+		Implemented a dual logic for Before and After ship creation for the speed reduction. It should work this time. ;-;
+
+**** Version 0.3.0e ****
+	Autostruct Manufactory:
+		Added Effectiveness reduction when losing Peak CR to prevent nigh-immortal instances.
+	Tachyon Broadcast Comms:
+		Reworking on logic to (hopefully) prevent unnecessary speed reduction overlap.
+
+**** Version 0.3.0d ****
+	Faultline Shield:
+		Another fooken nerf, why Protonus?
+		Increases Flux upkeep by 2x.
+		Reduces shield efficiency by 50% more flux per damage.
+
+**** Version 0.3.0c ****
+	Auxiliary Ordinance Forge:
+		Fixed the null in the description.
+	Phasic Armor Frame:
+		Laymanned-ish.
+	Inverted Phase Dilator:
+		Laymanned-ish.
+		
+**** Version 0.3.0b ****
+	Gravitic Flux Conduit:
+		Removed the supposedly non-existent hardflux effect.
+		
+**** Version 0.3.0a ****
+	Reliant Utility Drives:
+		Fixed forgotten description change.
+
+**** Version 0.3.0 ****
+	Added Auxiliary Ordinance Forge, a match made for Expanded Magazines, increases ammo regeneration and gives regeneration to limited non-missile weapons.
+	Added Extended Utility Engineering, a Systems Expertise but as a hullmod.
+	Added Phasic Armor Frame, a cursed damper field you swap in for phasing your ship.
+	Added Expanded Phase Capacitors, an actual hullmod dedicated for Phase ships that isn't a specialization.
+	Added Tachyon Broadcast Comms, allows fighters to reach much further in the map but puts the carrier into a slog.
+	Added Strikecraft Specialization, another fooken Skill turned into a hullmod.
+	Added Bulked Fighter Armor, Heavy Armor but for wings.
+	Inverted Phase Dilator:
+		Revived the jittering effect that indicates the state of the phase ship.
+	Collapser Shield:
+		Shield Efficiency reduction reduced from 2x to 67%.
+		Kinetic Damage resistance increased from 67% to 80%.
+		Now does Fragmentation resistance up to 34%.
+	Reliant Utility Drives:
+		Can no longer be equipped by Frigates.
+	Gravitic Flux Conduit:
+		Finally fixed the mass issue.
+
+**** Version 0.2.0g ****
+	Autostruct Manufactory:
+		Laymanned-ish.
+	Shunt Distributor:
+		Added the irremovable condition when Shield Shunt is installed.
+
+**** Version 0.2.0f ****
+	Faultline Shield:
+		Flux Dissipation is halved when equipped, but normalizes as malfunctions increases.
+		Malfunctions only occur when shield is raised.
+
+**** Version 0.2.0e ****
+	Inverted Phase Dilator:
+		Laymanned.
+
+**** Version 0.2.0d ****
+	Standoff Calcutron:
+		Peak Readiness reduction increased from 20% to 10%/20%/30%/40%.
+	Shunt Distributor:
+		Moved from Weapons to Special and Shield.
+		Added 20% Flux Dissipation.
+
+**** Version 0.2.0c ****
+	Autostruct Manufactory:
+		Hull Regeneration increased from 0.2% (1%) to 0.8% (4.0%).
+		Energy vulnerability reduced from 50% to 20%.
+		Flux Dissipation reduction reduced from 1% to 0.5% per missing Hull.
+		Ordinance Points reduced from 8/15/25/40 to 3/6/14/25.
+		Hull Cap added that slows regen substantially up to 50000 Hull points.
+	Bobulated Heral Armor:
+		Fragmentation damage penalty reduced from 100% to 50%.
+
+**** Version 0.2.0b ****
+	Arsenal Clock:
+		Fixed multiplier that isn't exacted from maximum CR time.
+	Collapser Shield:
+		Fixed condition where it should not be available if shield is not existing.
+	Faultline Shield:
+		Fixed condition where it should not be available if shield is not existing.
+	Maximal Shield:
+		Fixed condition where it should not be available if shield is not existing.
+
+**** Version 0.2.0a ****
+	Gravitic Flux:
+		Fixed base Mass not inheriting from the hull.
+	Hardload Discharge:
+		Description changed.
+		OP increased from 2/4/6/10 to 6/12/20/30.
+		Now provides Armor damage resistance.
+	Standoff Calcutron:
+		Change maximum value of Energy threshold from 80% to 70%.
+			This fixes the exceed value beyond 25% and also adds more leeway for Energy weapons.

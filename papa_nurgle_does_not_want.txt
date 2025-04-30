@@ -1,3 +1,14 @@
+**** Version 0.5.1-RC1 ****
+	Autostruct Manufactory:
+		Hull Regeneration reduced from 0.6% (3%) to 0.4% (2.0%).
+		Energy damage vulnerability removed.
+	Bobulated Heral Armor:
+		Fragmentation vulnerability removed.
+		Armor Strength reduction added from 1x to 0.5x.
+		Armor regen per cell increased from 0.15% to 0.5%.
+	Faultline Shield:
+		Description overhauled with Post-Descriptions.
+
 **** Version 0.5.1 ****
 	Updated to version 0.98a-RC5.
 	Hullmods:

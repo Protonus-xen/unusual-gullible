@@ -1,3 +1,7 @@
+**** Version 0.5.1-RC2.1 ****
+	Autostruct Manufactory:
+		Typo in Maximum regeneration should be 2% and not 4%. (hopefully this time)
+		
 **** Version 0.5.1-RC2 ****
 	Bulked Fighter Armor:
 		Fix incorrect string designation. (which causes a crash when observed)

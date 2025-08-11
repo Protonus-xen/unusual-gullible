@@ -1,3 +1,7 @@
+**** Version 0.5.1-RC3 ****
+	Meta:
+		Changed the update version from RC2.1 to RC3. Apparently TriOS didn't like that.
+
 **** Version 0.5.1-RC2.1 ****
 	Autostruct Manufactory:
 		Typo in Maximum regeneration should be 2% and not 4%. (hopefully this time)

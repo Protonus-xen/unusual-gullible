@@ -1,3 +1,7 @@
+**** Version 0.5.1-RC4 ****
+	Auxiliary Ordinance Forge:
+		Changed how the ammo regeneration is given for regenerating weapons.
+
 **** Version 0.5.1-RC3 ****
 	Meta:
 		Changed the update version from RC2.1 to RC3. Apparently TriOS didn't like that.

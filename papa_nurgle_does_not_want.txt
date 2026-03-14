@@ -1,3 +1,11 @@
+**** Version 0.5.1-RC6 ****
+	Faultline Shield: (in-progress)
+		nerf.
+
+**** Version 0.5.1-RC5 ****
+	Faultline Shield:
+		Added a return logic during battle that stops the hullmod for searching for a shield that doesn't exist.
+
 **** Version 0.5.1-RC4 ****
 	Auxiliary Ordinance Forge:
 		Changed how the ammo regeneration is given for regenerating weapons.

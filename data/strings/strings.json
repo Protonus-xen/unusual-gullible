@@ -1,0 +1,198 @@
+{
+	"ugh_hullmod":{
+		#Generic
+		"improv":"Improvements",
+		"feature":"Features",
+		"bad":"Drawbacks",
+		"compat":"Compatibilities",
+		"note":"Notes",
+		
+		"decks":"per deck",
+		"no_bays":"Ship does not have fighter bays",
+		
+		"rep_rec":"Replacement Recovery rate %s",
+		"rep_deg":"Replacement Degradation rate %s",
+		
+		"shunt_warn":"If S-modded and Shield Shunt is removed, the removal will only be complete when switching out of the ship. (Note: Manual reinsert is not possible, try Undo.)",
+	},
+	
+	#Anti Terminal Breakers
+	"ugh_atb":{
+		"ov_start":"If Overloaded, effects will occur for %s seconds:",
+		"ov_arm":"Armor Damage resistance %s.",
+		"ov_min":"Minimum Armor %s.",
+		"ov_repair":"Weapon and Engine repair time %s.",
+		
+		"bad_shield":"Shield Damage efficiency %s.",
+		
+		"comp_shield":"Requires a Shield for the overload to take effect and activate the system.%s",
+		"comp_safe":"Cannot be installed along with Safety Overrides.%s",
+		"comp_safety_h":"Safety Overrides",
+	},
+		
+	#Autostruct Manufactory
+	"ugh_au_m":{
+		"im_regen":"Regenerates %s for every %s missing Hull, up to a maximum of %s per second.",
+		
+		"bad_en":"Energy damage to Hull and Armor %s.",
+		"bad_flux":"Loses %s Flux Dissipation for every %s missing hull.",
+		"bad_vent":"Regeneration stops while venting.%s",
+		"bad_vent_h":"venting",
+		
+		"note_logi":"Regenerated hull will not be considered repaired and will logistically take account the lowest hull value the ship experiences in battle.",
+		"note_logi_h":"will not be considered repaired",
+		"note_dim":"Beyond %s Hull up to %s Hull threshold will have incur a diminishing regeneration effect down to %s effectiveness.",
+		"note_peak":"Once roughly %s of Peak Readiness time remains, the hullmod degrades down to %s effectiveness.",
+	},
+
+	#Bobulated Heral Armor
+	"ugh_bob":{
+		"im_armor":"Armor %s.",
+		"im_emp":"EMP damage resistance to weapons and engines %s.",
+		"im_regen":"Armor regeneration per cell %s.",
+		
+		"bad_armor":"Takes %s Armor damage from Kinetic weapons.",
+		"bad_efarm":"Armor Strength reduced by %s.",
+		"bad_frag":"Takes %s Fragmentation damage. %s",
+		"bad_frag_h":"150% Hull damage, 37.5% Armor damage.",
+		
+		"note":"Regenerated armor will not be considered repaired and will logistically take account the lowest hull value the ship experiences in battle.%s",
+		"note_h":"will not be considered repaired",
+		"full":"full",
+	},
+	
+	#Sustaining Motivator
+	"ugh_susm":{
+		"crew":"Cannot be installed without crew to motivate to",
+		"bad_stuff":"Ammo losses and Malfunction risks are still in effect",
+	},
+		
+	#Bulked Fighter Armor
+	"ugh_bfa":{
+		"im_fighter":"All Fighters receive %s Hull and %s Armor.",
+		"im_fighter_h":"Fighters",
+		"im_bomber":"All Bombers receive %s Hull and %s Armor.",
+		"im_bomber_h":"Bombers",
+		
+		"bad_refit":"Refit time for wings %s longer, %s currently.",
+		"bad_manuever":"Fighters and Bombers %s maneuverability.",
+	},
+		
+	#Strikecraft Specialization
+	"ugh_wngspc":{
+		"im_bomber":"Bomber damage against Destroyers, Cruisers and Capitals %s",
+		"im_bomber_h":"Bomber",
+		"im_bomber_h2":"Destroyers, Cruisers and Capitals",
+		"im_fighter":"Fighter (support, assault and general purpose) damage against Shields %s and Frigates %s",
+		"im_fighter_h":"Fighter",
+		"im_fighter_h2":"support, assault and general purpose",
+		"im_fighter_h3":"Shields",
+		"im_fighter_h4":"Frigates",
+		"im_inter":"Interceptor damage against Fighters and Missiles %s",
+		"im_inter_h":"Interceptor",
+		"im_inter_h2":"Fighters and Missiles",
+	},
+		
+	#Tachyon Broadcast Comms
+	"ugh_tachcm":{
+		"zflux_bad":"removes Zero-Flux bonus",
+	},
+	
+	#Shunt Distributor
+	"ugh_shunt_d":{
+		"im_flux":"Flux Dissipation %s.",
+		"im_cap_flux":"Flux Capacity %s.",
+		"im_weapon":"Non-Missile weapons firing speed %s.",
+		
+		"comp_Shun":"Requires Shield Shunt to be installed.%s",
+		"comp_Shun_h":"Shield Shunt",
+		"comp_Warn":"Warning: Will remove itself should Shield Shunt is removed from the ship.",
+		"comp_Warn_h":"Warning",
+	},
+		
+	#Shunt Thrusters
+	"ugh_shunt_t":{
+		"im_speed":"Top Speed (and maneuverability) increased by %s units while Zero-Flux speed is reduced by %s units.",
+		"im_speed_h":"(and maneuverability)",
+		"im_shield":"For every base Shield efficiency of %s higher starting from %s (%s), bonus is applied again.",
+		"im_stack":"Maximum speed bonus stack is %s, at the highest base Shield efficiency of %s.",
+		"im_stack_1":"If original Shield efficiency is lower than %s, the effect amplified by %s.",
+		"im_stack_2":"If original Shield efficiency is lower than %s, the effect amplified by %s.",
+		"im_stack_3":"If original Shield efficiency is lower than %s, the effect amplified by %s.",
+		"im_stack_4":"If original Shield efficiency is lower or equal to %s, the effect amplified by %s.",
+		
+		"comp_Shun":"Requires Shield Shunt to be installed.%s",
+		"comp_Shun_h":"Shield Shunt",
+		"comp_Warn":"Warning: Will remove itself should Shield Shunt is removed from the ship.",
+		"comp_Warn_h":"Warning",
+		"comp_Shield":"Should Makeshift Shield Generator be installed for Shield Shunt to be used, then the %s effect is applied.",
+		"comp_Shield_h":"Makeshift Shield Generator",
+		"comp_Shield_h2":"Shield Shunt",
+	},
+		
+	#Jandor Time Reactor
+	"ugh_tm_react":{
+		"im_flow":"Time Flow %s.",
+		
+		"bad_peak":"Peak Readiness time %s.",
+		"bad_dam":"Damage from all sources %s to Hull, Armor and Shield.",
+		
+		"note":"All %s carried by this ship are affected.",
+		"note_h":"wings",
+	},
+	
+	#Thrush Warheads
+	"ugh_thrush":{
+		"mis_range":"Missile range %s.",
+		"mis_speed":"Missile speed %s.",
+		"mis_flux":"Missile weapon flux generation %s.",
+		
+		"mis_dur":"Missile health %s.",
+		"mis_turn":"Missile turn speed %s.",
+	},
+		
+	#Faultline Shield
+	"ugh_fault":{
+		"hard_flux":"Hard Flux can fully dissipate with shields on.%s",
+		"flux_bad":"Flux Dissipation is reduced to %s but normalizes at higher current flux.",
+		"ill":"Ship becomes ill-advised at %s Flux, becomes more frequent at higher flux.",
+		
+		"rugged":"Ill-advised frequency is reduced with %s.",
+		"rugged_h":"Rugged Construction",
+		
+		"bad_upkeep":"Shield Upkeep %s.",
+		"bad_shield":"Shield Damage Taken %s.",
+	},
+
+	#Inverted Phase Dilator
+	"ugh_ipd":{
+		"fe_phase":"Phasing in will generate %s flux and will unphase immediately, triggering the cooldown phase %s longer than its default time.",
+		"fe_cooldown":"During cooldown, time flow is sped up to %s similar to entering phase state.",
+		"fe_flux":"However, Flux Dissipation is reduced to %s and the ship will take damage normally as if it is not Phased.",
+		
+		"comp_PAF":"Cannot be installed along with Phasic Armor Frame.%s",
+		"comp_PAF_h":"Phasic Armor Frame",
+	},
+		
+	#Phasic Armor Frame
+	"ugh_paf":{
+		"fe_phase":"Phasing in will generate %s flux and will unphase immediately, triggering the cooldown phase %s longer than its default time.",
+		"fe_cooldown":"During cooldown, the ship receives %s damage resistance against Hull and Armor damage.",
+		"fe_weapon":"The ship is able to fire in this state, but only at %s firing speed.",
+		
+		"comp_IPD":"Cannot be installed along with Inverted Phase Dilator.%s",
+		"comp_IPD_h":"Inverted Phase Dilator",
+	},
+		
+	#Expanded Phase Capacitors
+	"ugh_epc":{
+		"im_flux_use":"Phase Cloak Activation flux cost %s.",
+		"im_flux_gen":"Phase Cloak Flux generation per second %s.",
+		
+		"bad_cooldown":"Phase Cooldown time after decloaking %s.",
+		
+		"comp_cooldown":"Cooldown does not increase when Inverted Phase Dilator or Phasic Armor Frame is installed.%s",
+		"comp_IPD_h":"Inverted Phase Dilator",
+		"comp_PAF_h":"Phasic Armor Frame",
+	},
+}

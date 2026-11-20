@@ -1,0 +1,111 @@
+name,id,tier,rarity,tech/manufacturer,tags,uiTags,base value,unlocked,hidden,hiddenEverywhere,tech/manufacturer,cost_frigate,cost_dest,cost_cruiser,cost_capital,script,desc,short,sModDesc,sprite
+Gravitic Flux Conduit,ugh_graviticflux,0,,,"defensive, merc",Defenses,10000,,,,Unusual,2,4,6,10,data.hullmods.UGH_GraviticFlux,"A makeshift gravity generator that harnesses energy in its surrounding area, increasing the ship's hull by %s and mass by %s.
+
+As flux rises in the system up to peak of %s, the ship mass further increases by %s of its original value. This consequently sharply reduces Manueverability by %s.",,,graphics/UGH/hullmods/graviticflux.png
+Autostruct Manufactory,ugh_autostruct,1,,,"defensive, req_spaceport, merc","Defenses, Requires Dock",20000,,,,Unusual,3,6,14,25,data.hullmods.UGH_Autostruct,"Overhauls the chassis of the hull with heavy machinery and sensitive electronics, so it can repair itself as it takes damage.",,,graphics/UGH/hullmods/autostruct.png
+Anti-Terminal Reactive Breakers,ugh_antiterminalbreakers,2,,,"defensive, merc",Defenses,35000,,,,Unusual,2,4,6,10,data.hullmods.UGH_AntiterminalBreakers,Installs a long forgotten pro-consumer armor-reactor technology from a bygone era.,,"Shield efficiency penalty removed.
+Overload time reduced by %s.
+Increases Anti-Terminal duration by %s seconds.
+Weapon and Engine repair duration is reduced further by %s.",graphics/UGH/hullmods/antiterminal.png
+Bobulated Heral Armor,ugh_spongearmor,2,,,"defensive, req_spaceport, merc","Defenses, Requires Dock",35000,,,,Unusual,6,12,20,30,data.hullmods.UGH_SpongeArmor,"Replaces traditional alloy armoring with a Heat-Regenerative, Ablative Laminated polymer armor.",,,graphics/UGH/hullmods/spongearmor.png
+,,,,,,,,,,,,,,,,,,,,
+Shunt Distributor,ugh_shuntdistributor,0,,,"special, merc","Special, Shields",10000,,,,Unusual,3,6,10,15,data.hullmods.UGH_ShuntDistributor,"Installs a shunt augment that connects between the already deactivated shield emitter to the main heat grid of the ship, greatly improving flux dissipation while stabilizing weapon firing capacity.",,"Non-Missile weapon firing speed bonus increased to %s.
+Non-Missile weapon flux generation reduced by %s.
+Flux Dissipation percentage bonus increased to %s.",graphics/UGH/hullmods/shuntdistributor.png
+Shunt Diverted Thrusters,ugh_shuntthrusters,1,,,"special, merc","Special, Engines, Shields",20000,,,,Unusual,3,6,10,15,data.hullmods.UGH_ShuntThrusters,"Installs a shunt augment connecting between the converted shield emitter to the ship's primary thrusters, increasing their speed substantially.",,"Zero Flux movement speed penalty is halved.
+Maneuverability bonus from speed increase is increased by %s.
+Engines take %s less damage.",graphics/UGH/hullmods/divertedthrust.png
+Titanic Turboconductors,ugh_turboconductors,3,,,"special, req_spaceport, merc","Requires Dock, Special",50000,,,,Unusual,8,15,25,40,data.hullmods.UGH_Turboconductors,"Standard Persean heatsinks are replaced with bulky, heavy duty capacitors and active coolants, increasing Flux capacity by a factor of %s. This very wide flux space provides room for Zero-Flux speed bonus to incur at %s with an additional speed of %s units.
+
+The frigid coolers require constant power generation on the ship, which increases supply upkeep while active by %s and take %s more supplies just to repair the worn capacitors after the battle.",,,graphics/UGH/hullmods/turboconductors.png
+Jandor Time Reactor,ugh_timereactor,3,0.1,,"special, req_spaceport, merc","Requires Dock,Special",100000,,,,Unusual,2,4,6,10,data.hullmods.UGH_TimeReactor,Forbidden schematics of a peculiar temporal generator that encapsulates the entire ship and its strikecraft in an event of an engagement. Use with extreme caution.,,"Time Flow increased to %s.
+Damage taken from all sources increased to %s.",graphics/UGH/hullmods/timereactor.png
+,,,,,,,,,,,,,,,,,,,,
+Blast Capacitors,ugh_blastcapacitors,0,,,"offensive, merc",Weapons,10000,,,,Unusual,5,10,15,20,data.hullmods.UGH_BlastCapacitors,"Replaces standard capacitors for every Energy weapon installed on the ship with much larger high-capacity batteries. Beam weapons deal %s more damage while non-Beam Energy weapons deal %s more damage.
+
+The heavier storage takes time to recharge, costing %s slower firing speed while overheating beam lenses that reduce their range by %s.",,"Energy Weapon firing speed penalty reduced to %s.
+Beam Weapon range penalty reduced to %s.
+Energy Weapon Flux generation reduced by %s.",graphics/UGH/hullmods/blastcapacitors.png
+Weighted Rounds,ugh_weightedrounds,0,,,"offensive, merc",Weapons,10000,,,,Unusual,3,6,12,20,data.hullmods.UGH_WeightedRounds,"Replaces standard munitions manufactory to make high density rounds, increasing physical penetration. Ballistics will deal extra %s damage. The additional mass stresses ejectors making projectiles travel %s slower which consequently reduces range by %s.",,"Ballistic range penalty removed.
+Ballistic weapon projectile speed penalty reduced to %s.",graphics/UGH/hullmods/weightedrounds.png
+Arsenal Clock,ugh_arsenalclock,1,,,"offensive, merc",Weapons,20000,,,,Unusual,3,6,12,20,data.hullmods.UGH_ArsenalClock,"An inverted temporal field generator mounted on a auto-manufactory dedicated for munitions that takes away %s Flux Dissipation for its systems to operate.
+
+As the machine runs and ticks away Peak readiness time, non-Missile weapon damage rises up to a maximum of %s, while Autofiring accuracy improves by %s. This maximum threshold is peaked at %s of the remaining Peak readiness time.",,"Flux Dissipation penalty removed.
+Clock maxes sooner to %s of remaining Peak Combat Readiness instead with a higher maximum bonus of %s.",graphics/UGH/hullmods/arsenalclock.png
+Standoff Calcutron,ugh_standoffcalcutron,1,,,"offensive, merc",Weapons,20000,,,,Unusual,6,12,20,30,data.hullmods.UGH_StandoffCalcutron,"A vast array of delta cores are mounted on every weapon coil, hotwired to monitor the flow of flux throughout the ship. The extra cores extend the ranges of non-Missile weapons by %s.
+
+Ballistics start of with an %s increase of firing speed with no flux generation increase. As the flux threshold ramps up from %s up to %s, the ship loses the Ballistic benefits in exchange for %s increased Energy damage and less flux generation.
+
+All this redundant monitoring reduces Peak readiness duration by %s, depending on hull size.",,,graphics/UGH/hullmods/standoffcalcutron.png
+Thrush Warheads,ugh_thrushwarheads,2,,,"offensive, merc",Weapons,35000,,,,Unusual,2,4,6,10,data.hullmods.UGH_ThrushWarheads,"Retrofits missile manufactories to fit a semi-rocket design, while improving already dumbfire rockets.",,"Missile durability penalty is removed and is increased instead by %s.
+Missile capacity increased by %s.",graphics/UGH/hullmods/thrushwarheads.png
+Auxiliary Ordinance Forge,ugh_auxordforge,2,,,"offensive, merc",Weapons,35000,,,,Unusual,3,6,12,20,data.hullmods.UGH_AuxOrdinanceForge,"Allows an ordinance package section from the ship's hull for an additional autoforge dedicated for ammunition production in the midst of battle, increasing non-Missile Ammo regeneration by %s. 
+
+Every %s seconds, non-missile weapons with limited ammo of equal or more than %s will regenerate %s of its maximum capacity. The munitions upgrade reduces weapon turn rate by %s.",,"Weapon Turn rate penalty is removed.
+Ballistic and Energy weapons with ammo generation genereate ammo %s faster.
+Limited ammo lower limit to receive forge effect reduced to %s.",graphics/UGH/hullmods/auxordforge.png
+Magneto Turbo Barrels,ugh_magnetobarrels,3,,,"offensive, merc",Weapons,50000,,,,Unusual,6,12,20,30,data.hullmods.UGH_MagnetoBarrels,"Very heavy magnetic rails are installed on every non-Missile weaponry mounted on the ship, which increases their projectile speed by a factor of %s, which subsequently causes the projectiles to deal %s more damage.
+
+The rails themselves have an obvious drawback that causes %s slower firing speed and %s higher flux generation per shot.",,,graphics/UGH/hullmods/magnetobarrels.png
+,,,,,,,,,,,,,,,,,,,,
+Hardload Discharge,ugh_hardload_discharge,0,,,"offensive, shields, merc","Shields, Weapons",10000,,,,Unusual,6,12,20,30,data.hullmods.UGH_HardloadDischarge,"Installs an ill-advised flux coil from the shield emitter directly into the munitions manufactory with the necessary parts to remain the ship systems stable. This increases shield damage taken by %s.
+
+As the shield builds up hardflux, it contributes up to a maximum of %s non-Missile damage bonus and %s Armor damage resistance when %s. 
+
+This effect lasts for %s seconds, depending on hull size or until %s.",,,graphics/UGH/hullmods/hardloaddischarge.png
+Faultline Shield,ugh_faultlineshield,1,,,"defensive, req_spaceport, merc","Requires Dock, Shields",20000,,,,Unusual,6,12,20,30,data.hullmods.UGH_FaultlineShield,"Installs an overcharged active cooler into the shield emitter, relieving Flux stress on the shield but becomes progressively worse the more system tries to dissipate its used energy.",,,graphics/UGH/hullmods/faultlineshield.png
+Collapser Shield,ugh_collapsershield,2,,,"defensive, req_spaceport, merc","Requires Dock, Shields",35000,,,,Unusual,6,12,20,30,data.hullmods.UGH_CollapserShield,"Refracts the ship's shielding to a sparser, softer density which causes the shield to take damage by an additional %s.
+
+While contradictory at first, as flux level rises up to its maximum threshold of %s, the shield significantly reduces Kinetic damage by %s and Fragmentation by %s, while allowing %s Hard Flux to dissipate through its nebulous interior.",,Reduces shield damage penalty down to %s.,graphics/UGH/hullmods/collapsershield.png
+Maximal Shield,ugh_maximalshield,3,,,"defensive, req_spaceport, merc","Requires Dock, Shields",50000,,,,Unusual,3,6,12,20,data.hullmods.UGH_MaximalShield,"Installs a focusing lens directly into the shield emitter, which increases shield damage resistance by a factor of %s while being able to fully resist EMP arcing.
+
+The lens, of course, reduces the shield arc by %s while slowing turn rate and unfolding speed by %s. All this at the increased flux generation cost of a factor of %s, due to how awful the emitter generates through a small, magnified lens.",,"Increases Shield damage resistance factor up to %s.
+Flux upkeep generated from the shield reduced down to %s.",graphics/UGH/hullmods/maximalshield.png
+,,,,,,,,,,,,,,,,,,,,
+Improvised Logistics Bracing,ugh_improvisedbracing,1,,,"defensive, logistics, req_spaceport, merc","Requires Dock, Defenses, Logistics",20000,,,,Unusual,3,6,12,20,data.hullmods.UGH_ImprovisedBracing,"A spare utility section of the ship becomes dedicated into being a structural bracing and maintenance facility. This makeshift homerooming increases armor by %s, depending on hull size, ship hull by %s and peak readiness duration by %s.
+
+The maintenance efforts incur an recovery cost increase of %s and will %s.",,,graphics/UGH/hullmods/improvisedbracing.png
+Reliant Utility Drives,ugh_reliantdrives,2,,,"engines, logistics, req_spaceport, merc","Requires Dock, Engines, Logistics",35000,,,,Unusual,2,4,6,10,data.hullmods.UGH_ReliantDrives,"Dedicates an entire utility section of the ship for flux-engine conduits that provides %s Zero-flux speed, depending on hull size. Cannot be installed on frigates.
+
+This configuration %s.",,"Zero-Flux speed bonus is normalized to %s units regardless of hull size.
+Maneuverability is increased and is stronger on larger hull sizes.
+Engine Health is increased by %s.
+Increases maximum burn level by %s.",graphics/UGH/hullmods/reliantdrives.png
+Sustaining Motivator,ugh_sustainingmotivator,3,,,"special, logistics, req_spaceport, merc","Requires Dock, Logistics",50000,,,,Unusual,2,4,6,10,data.hullmods.UGH_SustainingMotivator,"A ship-wide status inducing operation that keeps the crew prepared and refreshed before entering the battlefield, increasing the ship's maximum combat readiness by %s.
+
+Such operations are costly and would increase monthly supply upkeep by %s, and should the crew undergo stress past peak readiness duration, combat readiness will drop %s faster than usual.",,"Maximum Combat readiness bonus is removed but now imitates its %s state as an additional free bonus. (%s)
+Combat Readiness loss increase is removed.
+Peak CR duration increased by %s.",graphics/UGH/hullmods/sustainingmotivator.png
+Extended Utility Engineering,ugh_extendedengineering,3,,,"special, logistics, req_spaceport, merc","Requires Dock, Logistics, Support",50000,,,,Unusual,3,6,12,20,data.hullmods.UGH_ExtendedEngineering,"A dedicated utility section that extends the ship's primary core systems. 
+
+Providing faster regeneration by %s for ship system charge and cooldown %s (should they exist) and extends ship system range effectiveness by %s.
+
+This configuration %s.",,"Provides %s additional charge for ship systems that can hold multiple charges.
+System cooldown is reduced further to %s.
+System range (should it exist) is increased further to %s.",graphics/UGH/hullmods/extendedengineering.png
+Auxiliary Superbank Dissipator,ugh_superbankdissipator,3,,,"special, logistics, req_spaceport, merc","Requires Dock, Special, Logistics",50000,,,,Unusual,8,15,25,40,data.hullmods.UGH_SuperbankDissipator,"Replaces an entire section of the hull with reactor additives and dissipators, increasing Flux Dissipation by a factor of %s.
+
+This leaves vital structures of the ship somewhat exposed, reducing Hull integrity by %s. Several Flux openings also normalizes the vent flow of the ship in such technicality, increasing Overload duration by %s and reducing Vent effectiveness by %s.
+
+To compensate the passive overflow, the ship will additionally require %s more supplies to maintain and recovery.
+
+This configuration %s.",,,graphics/UGH/hullmods/superbank.png
+,,,,,,,,,,,,,,,,,,,,
+Expanded Phase Capacitors,ugh_exphasecap,1,,,"phase, merc",Phase,20000,,,,Unusual,3,6,12,20,data.hullmods.UGH_ExPhaseCap,"Upgrades the standard Phase-dedicated Flux Capacitors with larger, more robust discharge batteries but at a cost of a bulkier phase discharge.",,"Flux upkeep generation during phase reduced further to %s.
+Phase Cooldown time penalty reduced to %s.",graphics/UGH/hullmods/exphasecap.png
+Phasic Armor Frame,ugh_phasearmor,2,,,"phase, req_spaceport, merc","Phase, Requires Dock",35000,,,,Unusual,3,8,15,30,data.hullmods.UGH_PhaseArmor,"Swaps standard and manufacturer-setting phase coils with heavy Damper field coils, harnessed around the ship's exteriors.",,,graphics/UGH/hullmods/phasearmor.png
+Inverted Phase Dilator,ugh_inverteddilator,3,,,"phase, req_spaceport, merc","Phase, Requires Dock",50000,,,,Unusual,7,15,22,30,data.hullmods.UGH_InvertedDilator,The only ill-advised Tri-Tachyon associated configuration that reverses the loops of the Phase Coils which tears open a limbo in between Real-space and Phase-space.,,,graphics/UGH/hullmods/inverteddilator.png
+,,,,,,,,,,,,,,,,,,,,
+Tachyon Broadcast Comms,ugh_tachyonbroadcast,1,,,"special, merc","Fighters, Support",20000,,,,Unusual,5,8,15,20,data.hullmods.UGH_TachyonBroadcast,"Installs a recent communication prototype technology that broadcasts fighter commands at very long distances.
+
+The innovation increases Wing engagement range by a factor of %s, but permanently %s from ship speed and reduces Flux Dissipation by %s as the tech heats up internal machinery.
+
+Should another hullmod already removed Zero-Flux speed, %s of top speed is reduced instead.",,"Flux penalty reduction removed.
+Engagement range increased to %s.",graphics/UGH/hullmods/tachyonbroadcast.png
+Strikecraft Specialization,ugh_wingspec,1,,,"special, merc",Fighters,20000,,,,Unusual,4,6,12,20,data.hullmods.UGH_WingSpec,A variety of manufactory tweaks and piloting programmes that improve the roles of fighters for this ship.,,"Penalties removed.
+Reduces casualties from wing losses by %s.
+Bomber effectiveness against destroyers and up increased to %s.
+Fighter effectiveness against shields increased to %s and frigates increased to %s.
+Interceptors effectiveness against fighters and missiles to %s.",graphics/UGH/hullmods/wingspec.png
+Bulked Fighter Armor,ugh_fighterarmor,2,,,"special, merc","Fighters, Defenses",35000,,,,Unusual,4,6,12,20,data.hullmods.UGH_FighterArmor,Post-manufactory protocols that has the ship organize armor attachments before sending the fighters out of their hangars.,,"Maneuverability penalty removed.
+All fighters and bombers take %s less hull and armor damage.",graphics/UGH/hullmods/fighterarmor.png

@@ -1,6 +1,11 @@
-**** Version 0.5.1-RC6 ****
+**** Version 0.5.1-RC7 ****
 	Faultline Shield: (in-progress)
 		nerf.
+
+**** Version 0.5.1-RC6 ****
+	Updated to Mod info for 0.98.5a-R8. Nothing much was needed changing.
+	Anti-Terminal Breakers:
+		Removed the "Battleship" referencing to nothing in the Smod description.
 
 **** Version 0.5.1-RC5 ****
 	Faultline Shield:
